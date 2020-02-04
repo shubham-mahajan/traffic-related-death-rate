@@ -1,0 +1,50 @@
+{
+    "name": "countries_by_traffic-related_death_rate",
+    "title": "Countries by Traffic Related Death Rate",
+    "version": "0.1",
+    "author": "Shubham Mahajan",
+    "licenses": [
+        {
+            "name": "GNU",
+            "path": "https://opensource.org/licenses/GPL-3.0",
+            "title": "GNU General Public License"
+        }
+    ],
+    "resources": [
+        {
+            "name": "countries_by_traffic-related_death_rate",
+            "path": "data/countries_by_traffic-related_death_rate.csv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Country",
+                        "description": "Country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Continent",
+                        "description": "Continent to which country belongs.",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Road Fatalities Inhabitants per 10 Million",
+                        "description": "Road Accidents of Inhabitants per 10 Million",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Road Fatalities Vehicles per 10 Million",
+                        "description": "Road Accidents of Vehicles per 10 Million",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Road Fatalities Vehicles per 1 Billion",
+                        "description": "Road Accidents of Vehicles per 1 Billion",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}
